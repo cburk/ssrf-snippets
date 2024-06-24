@@ -1,0 +1,7 @@
+
+server w/ a simple endpoint taking a queryparam representing url to request server side & translating
+ into the actual ssrf request
+
+The idea here is if triggering ssrf requires a complex payload, session management, etc
+it's easier to use w/ tools like ffuf if we can just pass the wordlist as simple query param
+
